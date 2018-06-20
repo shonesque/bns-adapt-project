@@ -6,6 +6,27 @@
 		"_classes": "",
 		"title": "a-05",
 		"displayTitle": "",
-		"body": ""
+		"body": "",
+		"_trickle":{
+			"_isEnabled": true,
+			"_onChildren": true,
+			"_button": {
+				"_isEnabled": true, 
+				"_styleBeforeCompletion": "visible", 
+				"_styleAfterClick": "hidden|disabled|scroll", 
+				"_isFullWidth": true, 
+				"_autoHide": false, 
+				"_className": "|trickle-round-arrow", 
+				"text": "Continue", 
+				"startText": "Begin",
+				"finalText": "Finish", 
+				"_component": "trickle-button" 
+			},
+			"_stepLocking": {
+				"_isEnabled": true, 
+				"_isCompletionRequired": true, 
+				"_isLockedOnRevisit": false 
+			}
+		}
 	}
 ]

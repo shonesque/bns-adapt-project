@@ -4,14 +4,212 @@
 		"_parentId": "b-05",
 		"_type": "component",
 		"_component": "text",
-		"_classes": "",
-		"_layout": "left",
+		"_classes": "intro",
+		"_layout": "full",
 		"title": "Introduction",
 		"displayTitle": "",
-		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
-		"instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+		"body": "Play the introduction video so you can have a better overview over what is coming up next. The training is brought to you by:<strong> Benedict Negotiating Seminars, Inc</strong>",
+		"instruction": "After completing the video you are going to be prompted with a Begin button to go to the 1st scene.<br><br>This is a license for the training of 1 person only. Violations should be reported to BNS at 813-655-4272 or local FBI office.",
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-10",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "ended",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Introduction",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_media": {
+			"mp4": "course/en/video/v1.mp4",
+			"poster": "course/en/video/PHV1.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
 		"_pageLevelProgress": {
 			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-15",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 1: Digging One's Own Grave",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the video and answer the questions so you can carry on to the next scene",
+		"_media": {
+			"mp4": "course/en/video/v2.mp4",
+			"poster": "course/en/video/PHV2.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-20",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 4,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Who do suppliers primarly target for back door selling questions?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Technical people",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Purchasing people",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Receptionists",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Project and Program Managers",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Administrative Assistants",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "Yes!<br><br>And all others except purchasing people.",
+			"_incorrect": {
+				"final": "No<br><br>They primarly target non-purchasing people."
+			},
+			"_partlyCorrect": {
+				"final": "Yes!<br><br>And all others except purchasing people."
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-25",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-one question-two",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "The supplier's goal in back door selling is to build their company's negotiating _______________.",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Reputation",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Leverage",
+				"_shouldBeSelected": true
+			}			
+		],	
+		"_feedback": {
+			"correct": "That’s correct!<br><br>The supplier's goal in back door selling is to build their company's negotiating <strong>leverage</strong>.",
+			"_incorrect": {
+				"final": "This is not correct.<br><br>The supplier's goal in back door selling is to build their company's negotiating <strong>leverage</strong>."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-70",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "Which of these is <strong>NOT</strong> an objective of the supplier's back door selling questions?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Divide purchasing and technical people",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Don't leave money on the table",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Make sure the customer gets a good deal",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Make sure that when the negotiation reaches the formal stage - there is nothing left to negotiate",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"correct": "That’s correct!<br><br>Make sure the customer gets a good deal is <strong>NOT</strong> an objective of the supplier's back door selling questions",
+			"_incorrect": {
+				"final": "This is not correct.<br><br>Make sure the customer gets a good deal is <strong>NOT</strong> an objective of the supplier's back door selling questions"
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": false
 		}
 	}
 ]
