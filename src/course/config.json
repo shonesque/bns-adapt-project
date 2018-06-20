@@ -8,7 +8,7 @@
         "_console": true
     },
     "_accessibility": {
-        "_isEnabled": true,
+        "_isEnabled": false,
         "_isTextProcessorEnabled": true,
         "_isSkipNavigationEnabled": true,
         "_ariaLevels": {

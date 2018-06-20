@@ -111,8 +111,8 @@
     "_id": "course",
     "_type": "course",
     "title": "Adapt Version 3.0 demonstration",
-    "displayTitle": "Adapt Version 3.0 demonstration",
-    "description": "A sample course demonstrating the capabilities of the Adapt Framework v3.0",
+    "displayTitle": "How to deal with backdoor selling",
+    "description": "",
     "body": "Hello {{_globals._learnerInfo.firstname}} - welcome to the demonstration build for version 3.0 of the Adapt framework.<br><br>This version of the framework drops support for legacy browsers (IE8/9/10), giving us a solid platform on which to start building for the future. Find out more <a href='https://www.adaptlearning.org/index.php/adapt-framework/' target='_blank'>here</a>.",
     "_buttons": {
         "_submit": {
