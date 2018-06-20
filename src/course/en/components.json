@@ -211,5 +211,161 @@
 		"_pageLevelProgress": {
 			"_isEnabled": false
 		}
+	},
+	{
+		"_id": "c-30",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "_setCompletionOn = inview | play | ended",
+		"_setCompletionOn": "play",
+		"_useClosedCaptions": false,
+		"_allowFullScreen": true,
+		"title": "Scene 2: Understanding Leverage",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Play the video and answer the questions so you can carry on to the next scene.",
+		"_media": {
+			"mp4": "course/en/video/v3.mp4",
+			"poster": "course/en/video/PHV3.png"
+		},
+		"_transcript": {
+			"_inlineTranscript": false,
+			"_externalTranscript": false,
+			"inlineTranscriptButton": "Transcript",
+			"inlineTranscriptCloseButton": "Close Transcript",
+			"inlineTranscriptBody": "Transcript body text should go here",
+			"transcriptLinkButton": "Transcript",
+			"transcriptLink": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	
+	{
+		"_id": "c-35",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-set-two question-one",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 5,
+		"title": "Question 1",
+		"displayTitle": "",
+		"body": "Salespeople keep extensive files about their competitors. If they know who their competitors are, they have a pretty good idea about where they should be on which of the following:",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Price",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Terms",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Delivery",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Warranty",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Freight Costs",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"correct": "That’s correct!<br><br>All of the answers are correct<br><br>Salespeople keep extensive files about their competitors. If they know who their competitors are, they have a pretty good idea about where they should be on <strong>price, terms, delivery, warranty and freight costs</strong>.",
+			"_incorrect": {
+				"final": "Yes – and all the rest of these negotiable items as well."
+			}
+		},		
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-40",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-two question-two",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 2",
+		"displayTitle": "",
+		"body": "Is it a good idea to emphasize to the supplier how pleased you are with their quality?",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Yes",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "No",
+				"_shouldBeSelected": true
+			}			
+		],	
+		"_feedback": {
+			"correct": "That’s correct!<br><br>It is <strong>NOT</strong> a good idea to emphasize to the supplier how pleased you are with their quality",
+			"_incorrect": {
+				"final": "That’s not the case.<br><br>It is <strong>NOT</strong> a good idea to emphasize to the supplier how pleased you are with their quality"
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-75",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "scenario-two question-three",
+		"_layout": "full",
+		"_attempts": 1,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": true,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_selectable": 1,
+		"title": "Question 3",
+		"displayTitle": "",
+		"body": "If you are exuberant in your praise of the supplier's quality, service, product, etc., it will build their negotiating ______________ at the expense of your company.",
+		"instruction": "",
+		"_items": [
+			{
+				"text": "Expertise",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Leverage",
+				"_shouldBeSelected": true
+			}			
+		],	
+		"_feedback": {
+			"correct": "That’s correct!<br><br>Being exuberant in your praise of the supplier's deliverables you are going to build their negotiating <strong>LEVERAGE</strong>.",
+			"_incorrect": {
+				"final": "That’s not the case.<br><br>Being exuberant in your praise of the supplier's deliverables you are going to build their negotiating <strong>LEVERAGE</strong>."
+			}
+		},	
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
 	}
 ]

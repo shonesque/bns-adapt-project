@@ -8,5 +8,25 @@
         "displayTitle": "",
         "body": "",
         "_trackingId": 0
+    },
+    {
+        "_id": "b-10",
+        "_parentId": "a-05",
+        "_type": "block",
+        "_classes": "section section-two",
+        "title": "b-10",
+        "displayTitle": "Scene 1: Digging One's Own Grave",
+        "body": "",
+        "_trackingId": 20
+    },
+    {
+        "_id": "b-15",
+        "_parentId": "a-05",
+        "_type": "block",
+        "_classes": "section section-three",
+        "title": "b-15",
+        "displayTitle": "Scene 2: Understanding Leverage",
+        "body": "",
+        "_trackingId": 21
     }
 ]
